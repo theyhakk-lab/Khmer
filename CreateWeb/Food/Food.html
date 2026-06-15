@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <title>Document</title>
+    <style>     
+
+        body{
+        margin: 0;
+        }
+        #center{
+            position: relative;
+        }
+        #img{
+            width: 100%;
+            height: 100hv;
+            object-fit: cover;
+  
+        }
+        #menu{
+            margin: auto;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+
+
+    
+}        
+    #menu nav ul {
+        list-style-type: none;
+        display: flex;
+        background-color: rgb(251, 85, 182);
+        padding: 0px;
+        position: sticky;
+        top: 0;
+
+    }
+    #menu nav ul li a {
+        display: block;
+        padding: 15px 30px;
+        text-decoration: none;
+        color: rgb(9, 9, 9);
+    }
+    #menu nav ul li a:hover {
+        color: azure;
+        text-decoration: none;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        font-size: 18px;
+    }
+    #menu li ul {
+        display: none;
+        position: absolute;
+        width: 180px;
+        text-align: center;
+    }
+    #menu ul li:hover ul {
+        display: block;
+        
+    }
+
+
+
+            
+            
+    
+    </style>
+</head>
+
+    <body>
+       <div id="menu">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+            <li><a href="">Product</a>
+                <ul>
+                    <li><a href="">Dell</a></li>
+                    <li><a href="">Acer</a></li>
+                    <li><a href="">Asus</a></li>
+                    <li><a href="">Sony</a></li>
+                    <li><a href="">PH</a></li>
+                </ul>
+            </li>
+            <ul>
+         
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Site map</a></li>
+           </ul>
+        </nav>
+    </div>  
+    <div id="center"> 
+    <img src="/Food/../picture/Amok.jpg" alt="" id="img"> 
+    </div>
+   
+    </body>
+    </html>

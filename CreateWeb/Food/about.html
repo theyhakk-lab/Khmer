@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Khmer Food</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f8f8f8;
+            color:#333;
+        }
+
+        nav{
+            background:#d75e5e;
+            padding:15px;
+            text-align:center;
+            position:sticky;
+            top:0;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .hero{
+            background-color: #f6f3f3;
+            height:100px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:#f77f00;
+            text-shadow:3px 3px 3px grey;
+        }
+
+        .hero h1{
+            font-size:50px;
+        }
+
+        .container{
+            width:80%;
+            margin:40px auto;
+        }
+
+        .section{
+            background:white;
+            padding:30px;
+            margin-bottom:25px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .section h2{
+            color:#f77f00;
+            margin-bottom:15px;
+        }
+
+        .food-list{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+            gap:20px;
+            margin-top:20px;
+        }
+
+        .card{
+            background:#fff3e6;
+            padding:20px;
+            border-radius:10px;
+            text-align:center;
+        }
+
+        .card h3{
+            color:#d62828;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Food2.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Service</a>
+    </nav>
+
+    <div class="hero">
+        <h1>About Khmer Food</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Welcome</h2>
+            <p>
+                Khmer Food is a website dedicated to introducing the rich and delicious
+                cuisine of Cambodia. Our goal is to share traditional recipes,
+                cooking techniques, and the unique food culture of the Khmer people.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Our Mission</h2>
+            <p>
+                We aim to preserve and promote Cambodian culinary heritage by providing
+                information about famous dishes, local ingredients, and traditional
+                cooking methods that have been passed down through generations.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Popular Khmer Foods</h2>
+
+            <div class="food-list">
+
+                <div class="card">
+                    <h3>Fish Amok</h3>
+                    <p>A famous Cambodian curry steamed in banana leaves.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Lok Lak</h3>
+                    <p>Stir-fried beef served with fresh vegetables.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Nom Banh Chok</h3>
+                    <p>Traditional Khmer noodles with fish gravy.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Bai Sach Chrouk</h3>
+                    <p>Grilled pork served with rice and pickled vegetables.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>Email: khmerfood@gmail.com</p>
+            <p>Phone: +855 12 345 678</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Khmer Food Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
